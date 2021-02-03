@@ -28,10 +28,9 @@ import android.support.v7.widget.Toolbar;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.R;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.ExpenseManager;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.InMemoryDemoExpenseManager;
-<<<<<<< HEAD
+
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.control.PersistentExpenseManager;
-=======
->>>>>>> d3492701680089140322553058d9b7b34794b673
+
 
 public class MainActivity extends AppCompatActivity {
     private ExpenseManager expenseManager;
@@ -69,11 +68,7 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
 
         /***  Begin generating dummy data for In-Memory implementation  ***/
-<<<<<<< HEAD
         expenseManager = new PersistentExpenseManager(getApplicationContext());
-=======
-        expenseManager = new InMemoryDemoExpenseManager();
->>>>>>> d3492701680089140322553058d9b7b34794b673
         /*** END ***/
     }
 
