@@ -42,3 +42,14 @@ dependencies {
     implementation 'com.android.support:design:23.4.0'
 }
 
+<<<<<<< HEAD
+=======
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:26.1.0'
+}
+>>>>>>> d3492701680089140322553058d9b7b34794b673
